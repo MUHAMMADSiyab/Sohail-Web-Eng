@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+div {
+  width: 400px;
+  height: 400px;
+  text-align: justify;
+  background: pink;
+  /* margin-left: -200px;
+  margin-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px; */
+
+  margin: 0 auto; /* tb-lr */
+
+  /* margin: 200px;  */
+
+  /* padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px; */
+
+  padding: 60px;
+  box-sizing: border-box;
+}
