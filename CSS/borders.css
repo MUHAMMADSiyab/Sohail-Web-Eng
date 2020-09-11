@@ -1,0 +1,24 @@
+div {
+  width: 400px;
+  height: 400px;
+  background: orange;
+  margin: 100px auto;
+
+  /* border-width: 30px;
+  border-style: ridge;
+  border-color: purple; */
+
+  border: 20px solid darkred;
+
+  /* border-top: 30px ridge purple; */
+
+  /* border-left-color: #000; */
+
+  /* border-top-left-radius: 100%; */
+
+  /* border-radius: 150px; */
+
+  /* border-radius: 100% 0 0 100%;  */
+
+  clip-path: polygon(20% 0%, 50% 0, 100% 100%, 0% 100%);
+}
