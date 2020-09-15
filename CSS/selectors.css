@@ -1,0 +1,62 @@
+/* Class & ID Selectors */
+.box {
+  width: 200px;
+  height: 200px;
+  background: purple;
+  margin: 10px;
+}
+
+#rect {
+  width: 100px;
+  height: 100px;
+  background: tomato;
+  margin: 20px;
+}
+
+/* All Selector */
+* {
+  border: 2px solid #000;
+}
+
+/* Multiple Selector */
+h1,
+h2 {
+  font-family: sans-serif;
+  color: chocolate;
+}
+
+/*********************  Relation Based Selectors ***********************/
+.container {
+  width: 100%;
+  height: 300px;
+  background: pink;
+}
+
+/* DESCENDENT SELECTORS */
+
+/* Direct children */
+.container > a {
+  color: tomato;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+/* All children */
+.container a {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+/* Direct siblings */
+h3 + h4 {
+  color: greenyellow;
+  font-size: 3rem;
+  font-family: calibri;
+  font-weight: normal;
+}
+
+/* All siblings */
+h3 ~ h4 {
+  color: green;
+  font-size: 4rem;
+}
