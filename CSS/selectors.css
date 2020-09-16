@@ -15,7 +15,7 @@
 
 /* All Selector */
 * {
-  border: 2px solid #000;
+  /* border: 2px solid #000; */
 }
 
 /* Multiple Selector */
@@ -59,4 +59,56 @@ h3 + h4 {
 h3 ~ h4 {
   color: green;
   font-size: 4rem;
+}
+
+/***************  PSUEDO SELECTORS / CLASSES ******************/
+button:hover {
+  background: orange;
+  color: #fff;
+}
+
+.inp:focus {
+  /* background: rgb(0, 0, 0); */
+  /* color: #fff; */
+}
+
+ul li:nth-child(even) {
+  font-size: 2rem;
+  color: purple;
+  font-family: sans-serif;
+}
+
+ul li:first-child {
+  font-size: 2rem;
+  color: rgb(190, 4, 82);
+  font-family: sans-serif;
+}
+
+p:not(.ignoreme) {
+  color: orangered;
+  font-style: italic;
+}
+
+.ch:checked + label {
+  font-size: 1.2rem;
+  color: green;
+  font-family: sans-serif;
+}
+
+.container::after {
+  content: "I am after content";
+  width: 200px;
+  height: 200px;
+  background: #000;
+  color: #fff;
+  padding: 15px;
+}
+
+p::selection {
+  background: cyan;
+  color: rgb(5, 65, 179);
+}
+
+.inp::placeholder {
+  color: red !important;
 }
