@@ -1,0 +1,21 @@
+img {
+  width: 500px;
+  height: 420px;
+  margin: 100px;
+
+  /* filter: brightness(200%); */
+  /* filter: contrast(300%); */
+  /* filter: opacity(100%); */
+  /* filter: hue-rotate(-90deg); */
+  /* filter: saturate(300%); */
+  /* filter: grayscale(100%); */
+  /* filter: blur(2px); */
+  /* filter: drop-shadow(20px 20px 5px orange); */
+
+  transition: all 1s cubic-bezier(0.07, 1.78, 1, 1);
+}
+
+img:hover {
+  border-radius: 50px;
+  filter: hue-rotate(50deg);
+}
