@@ -1,0 +1,20 @@
+.box {
+  width: 300px;
+  height: 300px;
+  margin: 100px auto;
+  background: linear-gradient(purple, orange, lime);
+  /* transform: translate(100px, 50px); */
+  /* transform: scale(1.5, 1.5); */
+  /* transform: rotate(90deg); */
+  /* transform: skew(10deg, 20deg); */
+
+  transition: all 1s linear;
+
+  opacity: 1;
+}
+
+.box:hover {
+  opacity: 0;
+  /* transform: rotate(-360deg); */
+  transform: scale(0, 0) rotate(45deg);
+}
