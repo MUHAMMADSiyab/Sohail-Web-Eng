@@ -1,0 +1,21 @@
+a {
+  margin-top: 10px;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: orange;
+  color: #fff;
+  font-size: 1rem;
+  font-family: sans-serif;
+  text-decoration: none;
+  display: block;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: purple;
+  margin: 5px;
+  display: inline-block;
+}
