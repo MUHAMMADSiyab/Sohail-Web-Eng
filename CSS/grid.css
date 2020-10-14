@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(13, 79, 201);
+}
+
+.container {
+  width: 100%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr 4fr;
+  grid-template-rows: 100px 200px 50px;
+  grid-gap: 50px;
+}
+
+.container .item {
+  background: #fff;
+  font-family: sans-serif;
+  padding: 10px;
+  font-size: 1.2rem;
+}
