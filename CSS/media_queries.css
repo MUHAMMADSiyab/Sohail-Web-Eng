@@ -1,0 +1,41 @@
+/* XLarge Desktops */
+@media only screen and (min-width: 1200px) {
+  body {
+    background: rgb(201, 204, 3);
+  }
+}
+
+/* Large Desktops */
+@media only screen and (max-width: 1200px) {
+  body {
+    background: rgb(3, 204, 177);
+  }
+}
+
+/* Medium Desktops */
+@media only screen and (max-width: 992px) {
+  body {
+    background: rgb(22, 55, 204);
+  }
+}
+
+/* Tablets */
+@media only screen and (max-width: 768px) {
+  body {
+    background: lime;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 576px) {
+  body {
+    background: rgb(255, 115, 0);
+  }
+}
+
+/* Print */
+@media print {
+  .no-print {
+    display: none;
+  }
+}
