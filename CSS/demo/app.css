@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 
 :root {
-  --primary-color: #47d630;
-  --primary-dark: #3fb12e;
+  /* --primary-color: #47d630;
+  --primary-dark: #3fb12e; */
+
+  --primary-color: #0a79df;
+  --primary-dark: #4834df;
 }
 
 * {
@@ -10,6 +13,23 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+}
+
+.title {
+  width: 28%;
+  margin: 50px auto;
+  text-align: center;
+}
+.title h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.title .line {
+  width: 100%;
+  height: 5px;
+  margin-top: 7px;
+  background: var(--primary-dark);
+  border-radius: 0 50% 0 50%;
 }
 
 #main__container {
@@ -156,9 +176,15 @@
 }
 
 #team-area .member {
-  padding: 15px;
-  box-shadow: 0px 2px 22px #f4f4f4;
+  padding: 26px;
+  box-shadow: 0px 1px 15px #eeeeee;
   text-align: center;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+
+#team-area .member:hover {
+  transform: translateY(-20px);
 }
 
 #team-area .member h4 {
@@ -168,15 +194,24 @@
 
 #team-area .member h6 {
   font-weight: normal;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: grey;
 }
 
 #team-area .member p {
-  font-size: 0.92rem;
+  font-size: 0.8rem;
   line-height: 24px;
   color: rgb(156, 156, 156);
   text-align: justify;
   margin-top: 15px;
   letter-spacing: 1px;
+}
+
+#team-area .member .tm-image-wrapper {
+  width: 100px;
+  height: 100px;
+  margin: 0px auto;
+  border-radius: 100%;
+  margin-bottom: 5px;
+  border: 2px solid rgb(184, 184, 184);
 }
