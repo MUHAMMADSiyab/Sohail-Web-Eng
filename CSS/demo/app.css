@@ -215,3 +215,73 @@
   margin-bottom: 5px;
   border: 2px solid rgb(184, 184, 184);
 }
+
+/* Feature area */
+#feature-area {
+  width: 90%;
+  margin: 80px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 80px;
+}
+
+#feature-area .fa-l h2 {
+  font-weight: 500;
+  font-size: 2.2rem;
+}
+
+#feature-area .fa-l p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 30px;
+  color: rgb(156, 156, 156);
+  text-align: justify;
+  margin-top: 15px;
+}
+
+#feature-area .fa-r .fa-image-wrapper {
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  background: url(./images/remote-team.png) no-repeat center / cover;
+  animation: slideArts 10s 5s ease infinite;
+}
+
+#feature-area .fa-l .btn {
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 25px;
+  width: 160px;
+  height: 55px;
+  background: var(--primary-color);
+  border: 0;
+  display: block;
+  text-align: center;
+  line-height: 55px;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  transition: all 0.4s ease;
+}
+
+#feature-area .fa-l .btn:hover {
+  background: var(--primary-dark);
+}
+
+@keyframes slideArts {
+  0% {
+    background: url(./images/remote-team.png) no-repeat center / cover;
+  }
+  25% {
+    background: url(./images/task.png) no-repeat center / cover;
+  }
+  50% {
+    background: url(./images/project-manager.png) no-repeat center / cover;
+  }
+  75% {
+    background: url(./images/scrum-board-2.png) no-repeat center / cover;
+  }
+  100% {
+    background: url(./images/facebook-ads.png) no-repeat center / cover;
+  }
+}

@@ -2,9 +2,9 @@
 
 I'm working in a Laravel 7 project. I've implemented my table structure as below:
 
-Classes and Sections many-to-many
+Programs and Sections many-to-many
 
-#### classes
+#### progarms
 
     name
 
@@ -12,9 +12,9 @@ Classes and Sections many-to-many
 
     name
 
-#### class_section
+#### program_section
 
-    class_id
+    program_id
     section_id
 
 Teachers and Subjects many-to-many
@@ -34,6 +34,6 @@ Teachers and Subjects many-to-many
     subject_id
     teacher_id
 
-Now, what i want is to use the `class_section` (pivot) `id` inside `subject_teacher` pivot table, so that i can insert the `class_section_id` in `subject_teacher` table and get the class/section of specific teacher/subject.
+Now, what i want is to use the `program_section` (pivot) `id` inside `subject_teacher` pivot table, so that i can insert the `program_section_id` in `subject_teacher` table and get the program/section of specific teacher/subject.
 
 Any idea how to do this using `Laravel Eloquent` ?
