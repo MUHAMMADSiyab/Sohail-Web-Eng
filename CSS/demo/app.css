@@ -285,3 +285,36 @@
     background: url(./images/facebook-ads.png) no-repeat center / cover;
   }
 }
+
+/* Services area */
+#services-area {
+  width: 90%;
+  margin: 60px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+}
+
+#services-area .service {
+  padding: 20px;
+  text-align: center;
+}
+
+#services-area .service p {
+  font-size: 0.8rem;
+  line-height: 20px;
+  color: rgb(156, 156, 156);
+  text-align: justify;
+  margin-top: 15px;
+  text-align-last: center;
+  letter-spacing: 1px;
+}
+
+#services-area .service .icon {
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+#services-area .service h5 {
+  font-weight: 500;
+}
