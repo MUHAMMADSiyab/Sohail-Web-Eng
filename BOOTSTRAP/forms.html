@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <title>BS Forms</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-sm-5">
+          <!-- Normal -->
+          <h3>User Login</h3>
+
+          <hr />
+          <form>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="text"
+                id="email"
+                class="form-control"
+                placeholder="Enter Email"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                class="form-control"
+                placeholder="Enter Password"
+              />
+            </div>
+
+            <div class="form-group">
+              <input type="submit" value="Login" class="btn btn-primary" />
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Inline -->
+      <div class="row mt-5">
+        <div class="col-sm-12">
+          <form class="form-inline">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="text"
+                id="email"
+                class="form-control mx-2"
+                placeholder="Enter Email"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                class="form-control mx-2"
+                placeholder="Enter Password"
+              />
+            </div>
+
+            <div class="form-group">
+              <input type="submit" value="Login" class="btn btn-primary" />
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Horizontal -->
+      <div class="row mt-5">
+        <div class="col-sm-12">
+          <form>
+            <div class="form-row">
+              <div class="col">
+                <div class="form-group">
+                  <label for="username">Username</label>
+                  <input
+                    type="text"
+                    id="username"
+                    name="username"
+                    placeholder="Username"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="form-group">
+                  <label for="ccn">Credit Card Number</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">
+                        <i class="fas fa-credit-card"></i>
+                      </span>
+                    </div>
+                    <input
+                      type="text"
+                      id="ccn"
+                      name="ccn"
+                      placeholder="Credit Card Number"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
