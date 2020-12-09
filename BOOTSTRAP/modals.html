@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- JS -->
+    <script src="./JS/jquery-3.3.1.min.js"></script>
+    <script src="./JS/popper.min.js"></script>
+
+    <script src="./JS/bootstrap.min.js"></script>
+    <title>BS Modals</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <!-- Trigger -->
+      <button
+        class="btn btn-primary"
+        data-toggle="modal"
+        data-target="#myModal"
+      >
+        Click to show/hide Modal
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Subscribe to Our Daily NewsLetter</h4>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-control form-control-lg"
+                  placeholder="Enter your email address"
+                />
+              </div>
+            </div>
+            <div class="modal-footer">
+              <input
+                type="button"
+                value="Cancel"
+                class="btn btn-lg btn-light"
+                data-dismiss="modal"
+              />
+              <input
+                type="submit"
+                value="Subscribe"
+                class="btn btn-lg btn-success"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
