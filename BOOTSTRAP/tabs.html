@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+
+    <style>
+      .nav-tabs .nav-item.show .nav-link,
+      .nav-tabs .nav-link.active {
+        border-top: 3px solid orange;
+        color: orange;
+        font-weight: bold;
+      }
+    </style>
+
+    <!-- JS -->
+    <script src="./JS/jquery-3.3.1.min.js"></script>
+    <script src="./JS/bootstrap.min.js"></script>
+    <title>BS Tabs</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-12">
+          <!--Menu  -->
+          <div class="row">
+            <div class="col-sm-4">
+              <ul class="nav nav-pills flex-column">
+                <li class="nav-item">
+                  <a href="#home" class="nav-link active" data-toggle="tab"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#products" class="nav-link" data-toggle="tab"
+                    >Products</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a href="#projects" class="nav-link" data-toggle="tab"
+                    >Projects</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a href="#about" class="nav-link" data-toggle="tab">About</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#contact" class="nav-link" data-toggle="tab"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-sm-8">
+              <!-- tab content -->
+              <div class="tab-content bg-dark text-white">
+                <div class="tab-pane active" id="home">
+                  <div class="container p-5">
+                    <h1>Home Page</h1>
+                  </div>
+                </div>
+
+                <div class="tab-pane fade" id="products">
+                  <div class="container p-5">
+                    <h1>Products Page</h1>
+                  </div>
+                </div>
+
+                <div class="tab-pane fade" id="projects">
+                  <div class="container p-5">
+                    <h1>Projects Page</h1>
+                  </div>
+                </div>
+
+                <div class="tab-pane fade" id="about">
+                  <div class="container p-5">
+                    <h1>About Page</h1>
+                  </div>
+                </div>
+
+                <div class="tab-pane fade" id="contact">
+                  <div class="container p-5">
+                    <h1>Contact Page</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
